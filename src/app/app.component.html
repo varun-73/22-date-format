@@ -1,0 +1,58 @@
+<input type="datetime-local" [(ngModel)]="input_date" [value]="input_date">
+{{ formatDate(input_date) }}
+
+
+
+
+
+
+
+
+<h1>Date pipe</h1>
+<p>Date : {{d | date}}</p>
+<p> short date: {{d | date:'short'}}</p>
+<p> medium date: {{d | date:'medium'}}</p>
+<p>;ong date: {{d | date:'long'}}</p>
+<p> full date : {{d | date:'full'}}</p>
+
+
+
+<h1>Moment</h1>
+<p>{{currentDate}}</p>
+<p>{{currentTime}}</p>
+<p>{{format1}}</p>
+<p>{{format2}}</p>
+<p>{{format3}}</p>
+<p>{{futureSecond}}</p>
+<p>{{futureDate}}</p>
+<p>{{fulltime}}</p>
+<div>
+  <h1>Luxon formate</h1>
+  <p>Date ISO : {{dateISO}}</p>
+  <p>Date RFC : {{dateRFC}}</p>
+  <p>Date short : {{short}}</p>
+  <p>Date Medium : {{medium}}</p>
+  <p>Time  Short : {{timeShort}}</p>
+  <p>Time long : {{timelong}}</p>
+  <p>Date Time Short : {{dateTimeShort}}</p>
+  <p>Date Time Long: {{dateTimeFull}}</p>
+  <p>Date Medium : {{medium}}</p>
+  <h4>Custome Format</h4>
+  <p>{{customFormat1}}</p>
+  <p>{{customFormat2}}</p>
+  <p>{{customFormat3}}</p>
+  <p>{{customFormat4}}</p>
+  <p>{{customFormat5}}</p>
+  <p>{{customFormat6}}</p>
+  <p>{{customFormat7}}</p>
+  <p>{{customFormat8}}</p>
+</div>
+<h1>DayJs</h1>
+<p>{{customF1}}</p>
+<p>{{customF2}}</p>
+<p>{{customF3}}</p>
+<p>{{customF4}}</p>
+<p>{{customF5}}</p>
+<p>{{customF6}}</p>
+<p>{{customF7}}</p>
+<p>{{customF8}}</p>
